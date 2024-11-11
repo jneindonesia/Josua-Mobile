@@ -14,7 +14,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'Codebase' do
+target 'Josua' do
   config = use_native_modules!
 
   use_react_native!(
@@ -23,7 +23,7 @@ target 'Codebase' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'CodebaseTests' do
+  target 'JosuaTests' do
     inherit! :complete
     # Pods for testing
   end

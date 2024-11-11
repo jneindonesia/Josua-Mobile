@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.codebase"
+    namespace "com.josua"
     defaultConfig {
-        applicationId "com.codebase"
+        applicationId "com.josua"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -87,15 +87,15 @@ android {
     productFlavors {
         development {
             minSdkVersion rootProject.ext.minSdkVersion
-            applicationId 'com.codebase.dev'
+            applicationId 'com.josua.dev'
             targetSdkVersion rootProject.ext.targetSdkVersion
-            resValue "string", "build_config_package", "com.codebase"
+            resValue "string", "build_config_package", "com.josua"
         }
         production {
             minSdkVersion rootProject.ext.minSdkVersion
-            applicationId 'com.codebase'
+            applicationId 'com.josua'
             targetSdkVersion rootProject.ext.targetSdkVersion
-            resValue "string", "build_config_package", "com.codebase"
+            resValue "string", "build_config_package", "com.josua"
         }
     }
     

@@ -1,4 +1,4 @@
-package com.codebase
+package com.josua
 
 import android.app.Application
 import com.facebook.react.PackageList
